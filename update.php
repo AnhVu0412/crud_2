@@ -1,5 +1,4 @@
 <?php
-//    include './util/config.php';
 $connect = mysqli_connect("localhost", "root", "");
 $db = mysqli_select_db($connect, "vux_test");
 

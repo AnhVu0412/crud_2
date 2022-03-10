@@ -66,7 +66,7 @@ $db = mysqli_select_db($connect, "vux_test");
                     </div>
                     <?php if(isset($_GET['msgsuccess'])){ ?>
                         <div class='alert alert-success'><?php echo $_GET['msgsuccess'] ?></div>;
-                    <?php }?>
+                    <?php } ?>
                     <?php echo $msg ?>
                     <form action="" method="post" name="login">
                         <div class="form-group">
@@ -82,6 +82,9 @@ $db = mysqli_select_db($connect, "vux_test");
                         </div>
                         <div class="form-group">
                             <p class="text-center">Don't have account? <a href="#" id="signup">Sign up here</a></p>
+                        </div>
+                        <div class="form-group">
+                            <p class="text-center"><a href="http://localhost:63342/crud_2/forgotpassword.php" id="signup">Forgot Password</a></p>
                         </div>
                     </form>
 
